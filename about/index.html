@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Charllie1226's Website!</title>
+</head>
+<body>
+    <h1>connect us!</h1>
+    <button herf="https://space.bilibili.com/2137875160">Bilibili</button>
+    <button herf="https://www.youtube.com/@Charllie1226">Youtube</button>
+    <button herf="https://x.com/Charllie1226">X(Twitter)</button>
+    <button id="alertButton" onclick="showAlert()">Email</button>
+    <br>
+    <button id="alertButton" onclick="showSurp()">Here's a surprise</button>
+    <script>
+    function showEmail(){
+        window.alert("My Email is Charllie1226@outlook.com !");
+    }
+    function showSurp() {
+        const userName = prompt("Here's your name", "Your name");
+        if (userName) {
+            window.alert(`Hello, ${userName}£¡\nNow it is ${new Date().toLocaleTimeString()}`);
+        }
+    }
+    </script>
+</body>
+</html>
